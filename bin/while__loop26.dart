@@ -11,13 +11,4 @@ bool isPrime(int n) {
 
 void main() {
   //Print the sum of prime numbers from 1 to 100
-  int i = 2;
-  int s = 0;
-  while (i < 100) {
-    if (isPrime(i)) {
-      s += i;
-    }
-    i += 1;
-  }
-  print(s);
 }
