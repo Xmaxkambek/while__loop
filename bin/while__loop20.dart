@@ -1,9 +1,8 @@
 void main() {
-  int a = 0;
-  int c = 34;
-  for(int b = 12;b < c;b++){
-a = b * c;
-  }
+  int a = 1;
+  for(int b = 12;b < 34;b++){
+ a *= b;
     print(a);
+  }
   //Find the product of the numbers from 12 to 34
 }
