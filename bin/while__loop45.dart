@@ -3,7 +3,7 @@ void main() {
   //Print the sum of the numbers at odd index.
     List<int> m = [];
   int n = 0;
-  for (int i = 1; i < 100; i++) {
+  for (int i = 330; i > 20; i++) {
     if (i % 2 == 0) {
       m.add(i);
     }
